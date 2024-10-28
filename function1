@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+void docking_countdown();
+
+int main() {
+
+	//call
+	docking_countdown();
+}
+
+//definition
+void docking_countdown() {
+	for (int i = 20; i > 0; i-=3)
+		cout << i << " ";
+	cout << "docking complete" << endl;
+}
