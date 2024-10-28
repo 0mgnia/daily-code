@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+void name();
+
+int main() {
+	 
+	//function call
+	name();
+}
+//definition
+void name() {
+	string username = "nia";
+	while (username != "CodeMaster123") {
+		cout << "enter username" << endl;
+		cin >> username;
+		if (username == "CodeMaster123") {
+			cout << "your in" << endl;
+		}
+		else {
+			cout << "error!" << endl;
+		}
+	}
+
+}
