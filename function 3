@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+int truck_weight_check(int weight);
+
+int main() {
+	 
+	//function call
+	
+}
+//definition
+int truck_weight_check(int weight) {
+	if (weight > 1200)
+		cout << "Overweight" << endl;
+	else
+		cout << "Within limit" << endl;
+}
