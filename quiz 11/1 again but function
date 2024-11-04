@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+//function decleration
+void halloween();
+
+
+int main() {
+	halloween(); //function call
+}
+//function definition
+
+void halloween() {
+	int num; //sets variable
+	cout << "How was your Halloween? (1-10)" << endl;
+	cin >> num;
+	if (num < 5)
+		cout << "Sorry it wasnt great" << endl;
+	else
+		cout << "Im glad it was great!" << endl;
+
+}
