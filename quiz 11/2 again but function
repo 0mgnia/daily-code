@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+//function decleration
+void box();
+
+int main() {
+	box(); //call
+}
+
+//function definition
+void box() {
+	for (int i = 0; i < 3; i++) { //tall
+		for (int j = 0; j < 3; j++) //inside the inner loop & wide
+			cout << "*"; //inside outer loop
+		cout << endl;
+
+	} //end of outer loop
+
+
+
+}
